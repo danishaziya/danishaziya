@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)file:///Users/danishazya/Downloads/tugas.html -->
+<html lang="id"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .button-group {
+            text-align: center;
+        }
+        .button-group button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .cancel-btn {
+            background-color: #f44336;
+            color: white;
+        }
+        .submit-btn {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .button-group button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Workshop Registration</h2>
+        
+        <form action="file:///Users/danishazya/Downloads/tugas.html#" method="post">
+            <!-- Input Nama -->
+            <div class="form-group">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required="" placeholder="Masukkan nama lengkap">
+            </div>
+
+            <!-- Input Email -->
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required="" placeholder="Masukkan email">
+            </div>
+
+            <!-- Input Alamat -->
+            <div class="form-group">
+                <label for="address">Alamat:</label>
+                <input type="text" id="address" name="address" required="" placeholder="Masukkan alamat">
+            </div>
+
+            <!-- Dropdown Usia -->
+            <div class="form-group">
+                <label for="age">Rentang Usia:</label>
+                <select id="age" name="age" required="">
+                    <option value="">- Select Age -</option>
+                    <option value="under 17">Under 17</option>
+                    <option value="17-25">17-25</option>
+                    <option value="26-35">26-35</option>
+                    <option value="above 35">Above 35</option>
+                </select>
+            </div>
+
+            <!-- Tombol Cancel dan Submit -->
+            <div class="button-group">
+                <button type="button" class="cancel-btn" onclick="window.location.href=&#39;#&#39;">Cancel</button>
+                <button type="submit" class="submit-btn">Submit Form</button>
+            </div>
+        </form>
+    </div>
+
+
+
+</body></html>
